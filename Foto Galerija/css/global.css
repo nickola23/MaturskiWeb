@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #80d5f7;
+}
+a{
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+h1{
+    color: blue;
+    padding: 10px 20px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.navItem{
+    height: fit-content;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+}
+.navItem:hover{
+    background-color: #80d5f7;
+}
+.navLeft{
+    display: flex;
+    flex-direction: row;
+}
+.mainCont{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.mainContText{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    overflow-y: auto;
+    border: 1px solid white;
+    font-family: monospace;
+}
+.mainContImg{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-image: url("../images/slika2.jpg");
+}
+.mainContNav{
+    width: 100%;
+    height: 50px;
+}
+.navImg{
+    width: calc(10% - 4px);
+    height: 100%;
+    border: 1px solid white;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.instruction, .author{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
