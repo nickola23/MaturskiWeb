@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 255, 0, 0.466);
+}
+a{
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    padding: 20px;
+    color: green;
+}
+h2{
+    margin: auto;
+    padding: 15px;
+    font-size: 26px;
+    color: green;
+}
+nav{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.navItem{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: green;
+}
+.navItem:hover{
+    background-color: green;
+    color: greenyellow;
+}
+.mainCont{
+    position: relative;
+    width: 550px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url("../images/srbija2.png");
+    background-position: center;
+    background-size: contain;
+}
+.text{
+    position: absolute;
+    top: 100px;
+    left: -100px;
+    font-size: 40px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: green;
+}
+.zastava{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.srbija{
+    top: 390px;
+    left: 200px;
+}
+.madjarska{
+    top: 5px;
+    left: 10px;
+}
+.hrvatska{
+    top: 170px;
+    left: 10px;
+}
+.bosna{
+    top: 340px;
+    left: 10px;
+}
+.crnagora{
+    top: 560px;
+    left: 30px;
+}
+.albanija{
+    top: 720px;
+    left: 120px;
+}
+.makedonija{
+    top: 720px;
+    left: 335px;
+}
+.bugarska{
+    top: 670px;
+    left: 470px;
+}
+.rumunija{
+    top: 70px;
+    left: 370px;
+}
+.author, .instruction{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    color: green;
+    padding: 10px;
+    z-index: 2;
+}
