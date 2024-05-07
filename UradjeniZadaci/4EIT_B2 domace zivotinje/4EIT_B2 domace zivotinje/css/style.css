@@ -1,0 +1,80 @@
+body {
+  background-image: url("../slike/slika.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+  text-align: center;
+}
+h1{
+	color:#ffff99;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffff99;
+  width: 699px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+li {
+  border-right:1px solid #bbb;
+  margin-left: auto;
+  margin-right: auto;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: #330033;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:200px;
+}
+
+li a:hover {
+  background-color: #330033;
+  color:#ffff99;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #ffff99;
+  width:200px;
+  height: 200px;
+  margin: 50px 25px;
+}
+.ex1 {
+  
+  width: 250px;
+  height: 250px;
+  font-size: 15px;
+  font-family:arial;
+ margin-top:20px;
+ color: black;
+}
+.text{
+	color: #ffff99;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #330033;
+   color: #ffff99;
+   text-align: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

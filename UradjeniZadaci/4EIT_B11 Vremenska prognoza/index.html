@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vremeska prognoza</title>
+</head>
+<body>
+    <header>
+        <h1>Turisticka agencija "Planinar"</h1> 
+    </header>
+    <div class = "nav">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="stranice/oAutoru.html">O autoru</a></li>
+            <li><a href="stranice/uputstvo.html">Uputstvo</a></li>
+        </ul>
+    </div>
+    <section>
+        <div>
+            <select id="izbor" onchange="funkcija()">
+                <option value="beograd">Beograd</option>
+                <option value="cacak">Cacak</option>
+                <option value="jagodina">Jagodina</option>
+                <option value="kraljevo">Kraljevo</option>
+                <option value="nis">Nis</option>
+                <option value="kladovo">Kladovo</option>
+                <option value="kopaonik">Kopaonik</option>
+                <option value="bor">Bor</option>
+                <option value="palic">Palic</option>
+                <option value="pirot">Pirot</option>
+            </select>
+        </div>
+        <iframe src="https://naslovi.net/vremenska-prognoza/beograd" id ="promena" width="400px" height="400px"></iframe>
+    </section>
+    <div class="futer">
+		<p>© Turisticka agencija "Planinar"</p>
+	</div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

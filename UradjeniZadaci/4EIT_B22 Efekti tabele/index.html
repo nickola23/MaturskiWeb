@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Efekti tabele</title>
+</head>
+<body>
+    <h1>Efekti tabele</h1>
+    <ul >
+        <li><a href="#">Početna</a></li>
+        <li><a href="pages/autor.html">O autoru</a></li>
+        <li><a href="pages/uputstvo.html">Uputstvo</a></li>
+    </ul>
+    <div class="sadrzaj">
+        <h2>EFEKTI TABELE</h2>
+        <table id="tabela">
+            <tr>
+                <th>Rbr</th>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Škola</th>
+                <th>Poeni</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Pera</td>
+                <td>Mikić</td>
+                <td>OŠ “Vuk Karadžić”</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Mika</td>
+                <td>Žikić</td>
+                <td>OŠ “Ivo Andrić”</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Milan</td>
+                <td>Marković</td>
+                <td>OŠ “Mika Antić”</td>
+                <td>73</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Ivan</td>
+                <td>Tošić</td>
+                <td>OŠ “Bubanjski heroji”</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Jelena</td>
+                <td>Perić</td>
+                <td>OŠ “Milan Milutinovic”</td>
+                <td>68</td>
+            </tr>
+            </table>
+            <div class="dugmici">
+                <button type="button" onclick="Sortiraj()">Sortiraj</button>
+                <button type="button" onclick="Oboji()">Oboji neparne</button>
+                <button type="button" onclick="Polozio()">Položili</button>
+                <button type="button" onclick="NijePolozio()">Nisu položili</button>
+                <button type="button" onclick="Izbaci()">Izdvoj one koji su položili</button>
+            </div>
+    </div> 
+    
+    <div class="footer">
+        <p>© Efekti tabele</p>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<script src="myscript.js"></script>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+	<h2 class="h2">OSNOVNA ŠKOLA "SANJA MARINKOVIĆ"</h2>
+		<header>
+		<nav class="hed">
+				<ul>
+					<li><a class="delovizaglavlja" href="index.html">Početna</a></li>
+					<li><a class="delovizaglavlja" href="autor.html">O autoru</a></li>
+					<li><a class="delovizaglavlja" href="uputstvo.html">Uputstvo</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="col text-center"><h2>ZVUCI INSTRUMENATA</h2></div>
+		
+	
+		<table class="table">
+		 <thead class="ime">
+			<tr meta charset="UTF-8">
+				<th>Naziv instrumenta</th>
+				<th>Slika instrumenta</th>
+				<th>Zvuk instrumenta</th>
+			</tr>
+		</thead>
+		<!-- GITARA -->
+		<tr>
+			<td>Gitara</td>
+				<td>	
+					<a href="https://sr.wikipedia.org/wiki/%D0%93%D0%B8%D1%82%D0%B0%D1%80%D0%B0">
+					<img src="img/gitara.jpg" alt="gitara" class="slika"></a>
+				</td>
+			<td>	
+				<img src="img/zvucnik.jpg" id="gitara" onmouseover="start('gitara')" onmouseout="stop('gitara')" alt="zvucnik" class="slika">
+				<a href="#" onclick="window.open('./pages/zicani.html','','width=200,height=400')">Saznaj vise</a>
+			</td>
+		</tr>
+		<!-- VIOLINA -->
+		<tr>
+			<td>Violina</td>
+				<td>	
+					<a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0">
+					<img src="img/violina.jpg" alt="violina" class="slika"></a>
+				</td>
+			<td>	
+				<img src="img/zvucnik.jpg" id="violina" onmouseover="start('violina')" onmouseout="stop('violina')" alt="zvucnik" class="slika">
+				<a href="#" onclick="window.open('./pages/zicani.html','','width=200,height=400')">Saznaj vise</a>
+			</td>
+		</tr>
+		<!-- KLAVIR -->
+		<tr>
+			<td>Klavir</td>
+				<td>		
+					<a href="https://sr.wikipedia.org/sr-ec/%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D1%80">
+					<img src="img/klavir.jpg" alt="klavir" class="slika"></a>
+			</td>
+			<td>	
+				<img src="img/zvucnik.jpg" id="klavir" onmouseover="start('klavir')" onmouseout="stop('klavir')" alt="zvucnik" class="slika">
+				<a href="#" onclick="window.open('./pages/specijalne.html','','width=200,height=400')">Saznaj vise</a>
+			</td>
+		</tr>
+		<!-- BUBNJEVI -->
+		<tr>
+			<td>Bubnjevi</td>
+				<td>		
+					<a href="https://sr.wikipedia.org/wiki/%D0%91%D1%83%D0%B1%D1%9A%D0%B5%D0%B2%D0%B8">
+					<img src="img/bubanj.jpg" alt="bubanj" class="slika"></a>
+			</td>
+			<td>	
+				<img src="img/zvucnik.jpg" id="bubanj" onmouseover="start('bubanj')" onmouseout="stop('bubanj')" alt="zvucnik" class="slika">
+				<a href="#" onclick="window.open('./pages/specijalne.html','','width=200,height=400')">Saznaj vise</a>
+			</td>
+		</tr>
+		<!-- HARMONIKA -->
+		<tr>
+			<td>Harmonika</td>
+				<td>		
+					<a href="https://sr.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0">
+					<img src="img/harmonika.jpg" alt="harmonika" class="slika"></a>
+			</td>
+			<td>	
+				<img src="img/zvucnik.jpg" id="harmonika" onmouseover="start('harmonika')" onmouseout="stop('harmonika')" alt="zvucnik" class="slika">
+				<a href="#" onclick="window.open('./pages/specijalne.html','','width=200,height=400')">Saznaj vise</a>
+			</td>
+		</tr>
+		<!-- KONTRAFAGOT -->
+		<tr>
+			<td>Kontrafagot</td>
+				<td>		
+					<a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%84%D0%B0%D0%B3%D0%BE%D1%82">
+					<img src="img/kontrafagot.jpg" alt="kontrafagot" class="slika"></a>
+			</td>
+			<td>	
+				<img src="img/zvucnik.jpg" id="kontrafagot" onmouseover="start('kontrafagot')" onmouseout="stop('kontrafagot')" alt="zvucnik" class="slika">
+				<a href="#" onclick="window.open('./pages/duvacki.html','','width=200,height=400')">Saznaj vise</a>
+			</td>
+		</tr>
+		<audio id='gitara'><source src="sound/gitara.mp3" type="audio/mpeg"/></audio>
+		<audio id='violina'><source src="sound/violina.mp3" type="audio/mpeg"/></audio>
+		<audio id='klavir'><source src="sound/klavir.mp3" type="audio/mpeg"/></audio>
+		<audio id='bubanj'><source src="sound/bubanj.mp3" type="audio/mpeg"/></audio>
+		<audio id='harmonika'><source src="sound/harmonika.mp3" type="audio/mpeg"/></audio>
+		<audio id='kontrafagot'><source src="sound/kontrafagot.mp3" type="audio/mpeg"/></audio>
+		</table>
+		<footer>
+			<p>Copyright © "Osnovna skola "Sonja Marinkovic"</p>
+		</footer>
+		
+		
+		
+	</body>
+</html>

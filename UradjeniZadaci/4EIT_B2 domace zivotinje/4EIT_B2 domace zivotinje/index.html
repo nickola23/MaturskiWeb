@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<title> Domaće životinje</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+<body>
+	
+	<h1>ДОМАЋЕ ЖИВОТИЊЕ</h1>
+		<ul>
+			<li><a href="index.html">Почетна</a></li>
+			<li><a href="info/autor.html">О аутору</a></li>
+			<li><a href="info/uputstvo.html">Упутсвто</a></li>
+		</ul>
+	<div class="wrapper">
+		<div>
+			<img class="img" src="slike/pas.jpg" alt="Пас" onmouseover="Pusti1()" onclick="window.open('./info/pas.html','name','width=600,height=400');">
+		</div>
+		<div>
+			<img class="img" src="slike/patka.jpg" alt="Паче" onmouseover="Pusti2()" onclick="window.open('./info/patka.html','name','width=600,height=400');">
+		</div>
+		<div>
+			<img class="img" src="slike/macka.jpg" alt="Мачка" onmouseover="Pusti3()" onclick="window.open('./info/macka.html','name','width=600,height=400');">
+		</div>
+		<div>
+			<img class="img" src="slike/pile.jpg" alt="Пиле" onmouseover="Pusti4()" onclick="window.open('./info/pile.html','name','width=600,height=400');">
+		</div>
+		<div>
+			<img class="img" src="slike/krava.jpg" alt="Крава" onmouseover="Pusti5()" onclick="window.open('./info/krava.html','name','width=600,height=400');">
+		</div>
+		
+		
+	</div>
+	
+	<div class="footer">
+		<p> Copyright © Предшколска Установа "Срећно дете" </p>
+	</div>
+	<audio id="audio1" src="./muzika/krava.mp3"></audio>
+	<audio id="audio2" src="./muzika/patka.mp3"></audio>
+	<audio id="audio3" src="./muzika/pile.mp3"></audio>
+	<audio id="audio4" src="./muzika/pas.mp3"></audio>
+	<audio id="audio5" src="./muzika/macka.mp3"></audio>
+	<script src="java/java.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    background-color: #f2ff39;
+}
+h1,h2,h3{text-align: center;}
+.slova{
+    color:green;
+}
+.senka{text-shadow: 2px 2px 4px #000000;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #67ff7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    width:20%;
+  }
+ 
+  li a {
+    display: block;
+    color: #005a06;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #005a06;
+    color: aliceblue;
+  }
+  .container{padding-top: 15px;}
+  .karta{
+    width:80%;
+    height:700px;
+}
+
+.first{width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second{width: 80%;
+position: relative;
+}
+.flex{display: flex;}
+
+.footer {
+    left: 0;
+    width: 100%;
+    background-color: #005a06;
+    color: #ffff99;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+ }
+p{margin: 0;}
+.malo{font-size: 9px;}
+.card{
+    width: 50px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.srbija{
+    top:300px;
+    left:250px;
+}
+.crnagora{
+    top:500px;
+    left:30px;
+}
+.bih{
+    top: 280px;
+    left:10px;
+}
+.hr{
+    top:140px;
+    left:5px;
+}
+.hun{
+    top:2px;
+    left:2px;
+}
+.rum{
+    top:30px;
+    left:440px;
+}
+.bul{
+    top:530px;
+    left:620px;
+}
+.mac{
+    top:640px;
+    left:460px;
+}
+.alb{
+    top:620px;
+    left:170px;
+}
+
+.text{
+	color: #2b2b06;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+}

@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:#fff;
+    background-color: rgb(7, 73, 255);
+    padding: 20px;
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+    overflow: hidden;
+    background-color: #054686;
+  }
+  
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    border:1px solid #fff;
+    background-color: #2e6ead;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4da6ff;
+    color: black;
+    text-decoration: none;
+}
+.text{
+	color: #054686;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+    padding: 30px;
+}
+.footer {
+    padding-top: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    color: #42423d;
+    text-align: center;
+}
+.sadrzaj{
+    margin: 20px;
+    display: block;
+}
+.siva{color: #42423d;}
+.polja{
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.greska{
+    color: red;
+}
+.container{margin:0px;}
+label,input,select{margin: 6px;}
+input,select,option{
+    width: 200px;
+    height: 28px;
+}
+label{
+    font-size: 18px;
+}
+select,option{
+    font-size: 10px;
+}

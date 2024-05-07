@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Србија и њени суседи</title>
+</head>
+<body>
+    <h2 class="slova">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h2>
+    <ul>
+        <li><a href="index.html">Почетна</a></li>
+        <li><a href="pages/autor.html">О аутору</a></li>
+        <li><a href="pages/uputstvo.html">Упутсвто</a></li>
+    </ul>
+    <h3 class="slova">Србија и њени суседи</h3>
+    <div class="container">
+        <div class="flex">
+            <div class="first">
+                <h1 class="slova senka">Г</h1>
+                <h1 class="slova senka">е</h1>
+                <h1 class="slova senka">о</h1>
+                <h1 class="slova senka">г</h1>
+                <h1 class="slova senka">р</h1>
+                <h1 class="slova senka">а</h1>
+                <h1 class="slova senka">ф</h1>
+                <h1 class="slova senka">и</h1>
+                <h1 class="slova senka">ј</h1>
+                <h1 class="slova senka">а</h1>
+            </div>
+            <div class="second">
+                <img src="slike/karta.jpg" class="karta">
+                <div class="card srbija"><img src="slike/srbija.jpg" onmouseover="Srbija()" onmouseout="Stop()" onclick="window.open('pages/srbija.html','name','width=600,height=400');"><p class="slova malo">Srbija</p></div>
+                <div class="card crnagora"><img src="slike/crnagora.jpg" onmouseover="CrnaGora()" onmouseout="Stop()" onclick="window.open('pages/crnaGora','name','width=600,height=400');"><p class="slova malo">Crna Gora</p></div>
+                <div class="card bih"><img src="slike/bosna.jpg" onmouseover="Bih()" onmouseout="Stop()" onclick="window.open('pages/Bih.html','name','width=600,height=400');"><p class="slova malo">Bosna i Hercegovina</p></div>
+                <div class="card hr"><img src="slike/hrvatska.jpg" onmouseover="Hrvatska()" onmouseout="Stop()" onclick="window.open('pages/hrvatska.html','name','width=600,height=400');"><p class="slova malo">Hrvatska</p></div>
+                <div class="card hun"><img src="slike/madjarska.jpg" onmouseover="Madjarska()" onmouseout="Stop()" onclick="window.open('pages/madjarska.html','name','width=600,height=400');"><p class="slova malo">Madjarska</p></div>
+                <div class="card rum"><img src="slike/rumunija.jpg" onmouseover="Rumunija()" onmouseout="Stop()" onclick="window.open('pages/rumunija.html','name','width=600,height=400');"><p class="slova malo">Rumunija</p></div>
+                <div class="card bul"><img src="slike/bugarska.jpg" onmouseover="Bugarska()" onmouseout="Stop()" onclick="window.open('pages/bugarska.html','name','width=600,height=400');"><p class="slova malo">Bugarska</p></div>
+                <div class="card mac"><img src="slike/makedonija.jpg" onmouseover="Makedonija()" onmouseout="Stop()" onclick="window.open('pages/makedonija.html','name','width=600,height=400');"><p class="slova malo">Severna Makedonija</p></div>
+                <div class="card alb"><img src="slike/albanija.jpg" onmouseover="Albanija()" onmouseout="Stop()" onclick="window.open('pages/albanija.html','name','width=600,height=400');"><p class="slova malo">Albanija</p></div>
+            </div>
+        </div>
+    </div>
+	<p class="footer"> Copyright © ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ" </p>
+    <audio id="srb" src="audio/srbija.mp3"></audio>
+    <audio id="mne" src="audio/crnagora.mp3"></audio>
+    <audio id="bih" src="audio/bih.mp3"></audio>
+    <audio id="cro" src="audio/hrvatska.mp3"></audio>
+    <audio id="hun" src="audio/madjarska.mp3"></audio>
+    <audio id="rum" src="audio/rumunija.mp3"></audio>
+    <audio id="bul" src="audio/bugarska.mp3"></audio>
+    <audio id="nmk" src="audio/makedonija.mp3"></audio>
+    <audio id="alb" src="audio/albanija.mp3"></audio>
+    <script src="java/custom.js"></script>
+</body>
+</html>
