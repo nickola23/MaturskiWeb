@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropdown with File Names</title>
+</head>
+<body>
+
+<!-- Container for the dropdown -->
+<div id="dropdownContainer">
+    <select id="myDropdown" onclick="fetchFileNamesAndPopulateDropdown()"></select>
+</div>
+
+<script>
+// Function to fetch file names from PHP script and populate the dropdown
+function fetchFileNamesAndPopulateDropdown() {
+    <?php
+    $folderPath = 'prilog'; // Putanja do direktorijuma sa datotekama
+    $fileNames = array_diff(scandir($folderPath), array('.', '..'));
+    ?>
+    const fileNames = <?php echo json_encode(array_values($fileNames)); ?>;
+    
+    const dropdown = document.getElementById('myDropdown');
+    dropdown.innerHTML = ''; // Clear the dropdown
+    fileNames.forEach(fileName => {
+        const option = document.createElement('option');
+        option.text = fileName;
+        dropdown.add(option);
+    });
+}
+</script>
+
+</body>
+</html>

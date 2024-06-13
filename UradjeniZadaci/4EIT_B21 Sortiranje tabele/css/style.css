@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+.width{
+    width: 30%;
+    justify-content: center;
+    /* height: 20px; */
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+nav {
+    border: 1px solid #00ffaa;
+    background-color: #3c49be;;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+    text-decoration: none;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #47549c;
+    border: 0.5px solid rgb(255, 255, 255);
+   
+}
+ul {
+    list-style-type: none;
+}
+footer {
+    background-color: #3c49be;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    position: fixed;
+    bottom: 0;
+}
+
+footer .school-name {
+    flex: 1 1 auto; /* Allow the name to shrink if needed */
+}
+
+footer .links {
+    flex: 2 1 auto; /* Allow the links to shrink if needed */
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap; /* Allow links to wrap to new lines if needed */
+    justify-content: flex-end;
+}
+
+footer .links a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+    white-space: nowrap; /* Prevent the links from breaking mid-word */
+}
+
+footer .links a:first-child {
+    margin-left: 0;
+}
+
+footer .links a:hover {
+    color: #ffd700;
+}
+a{
+    color: white;
+}
+th{
+background-color: #3758b4;
+color: black;
+
+}
+table {
+margin-top: 100px;
+width: 30%;
+margin-left: 35%;
+border-collapse:collapse;
+
+}
+th, td, table {
+padding: 8px;
+text-align: left;
+border: 1px solid;
+}
+

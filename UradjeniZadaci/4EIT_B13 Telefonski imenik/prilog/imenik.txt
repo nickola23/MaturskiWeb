@@ -1,0 +1,7 @@
+﻿Šifra korisnika | Ime      | Prezime    | Adresa       | Mesto       | Broj telefona | e-mail
+1                | Marko    | Marković   | Ulica 1      | Beograd     | 123456789     | marko@example.com
+2                | Ana      | Anić       | Ulica 2      | Novi Sad    | 987654321     | ana@example.com
+3                | Jovan    | Jovanović  | Ulica 3      | Niš         | 456789123     | jovan@example.com
+4                | Ivana    | Ivanović   | Ulica 4      | Kragujevac  | 321654987     | ivana@example.com
+5                | Petar    | Petrović   | Ulica 5      | Subotica    | 654123987     | petar@example.com
+6                | Petra    | Markovic   | Ulica 6      | Kraljevo    | 652143987     | petar123@example.com

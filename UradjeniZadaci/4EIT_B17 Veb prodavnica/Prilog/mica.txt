@@ -1,0 +1,5 @@
+123456Telefon1                 Samsung             2GB  Snapdragon     12MP      IPS       ./slike/S24.jpg            500       DA
+789012Telefon2                 Apple               1GB  A12 Bionic     16MP      LCD       ./slike/iphone.jpeg        700       NE 
+345678Telefon3                 Huawei              3GB  Kirin 980      20MP      AMOLED    ./slike/S24.jpg            600       DA
+901234Telefon4                 Samsung             2GB  Exynos 990     12MP      AMOLED    ./slike/xiaomi.webp        800       NE
+567890Telefon5                 Apple               1.5GBA13 Bionic     20MP      OLED      ./slike/S24.jpg            900       DA
